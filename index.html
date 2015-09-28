@@ -1,141 +1,173 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <title>Welcome to Choco3’s documentation &mdash; Choco3 3.2.0 documentation</title>
-    
-    <link rel="stylesheet" href="_static/default.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '3.2.0',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
-      };
-    </script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="top" title="Choco3 3.2.0 documentation" href="#" />
-    <link rel="next" title="Preliminaries" href="1_overview.html" /> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Choco3 by Tiger66639</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
-    <div class="related">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             accesskey="I">index</a></li>
-        <li class="right" >
-          <a href="1_overview.html" title="Preliminaries"
-             accesskey="N">next</a> |</li>
-        <li><a href="#">Choco3 3.2.0 documentation</a> &raquo;</li> 
-      </ul>
-    </div>  
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/Tiger66639/choco3">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/Tiger66639/choco3/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/Tiger66639/choco3/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body">
-            
-  <div class="section" id="welcome-to-choco3-s-documentation">
-<span id="index"></span><h1>Welcome to Choco3&#8217;s documentation<a class="headerlink" href="#welcome-to-choco3-s-documentation" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>Choco3</h1>
+          <p>An open-source Java library for Constraint Programming</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/Tiger66639">Tiger66639</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <h2>
+<a id="choco3" class="anchor" href="#choco3" aria-hidden="true"><span class="octicon octicon-link"></span></a>Choco3</h2>
+
+<p>Choco3 is an open-source Java library for Constraint Programming.</p>
+
+<p>Choco3 is not the continuation of Choco2, but a completely rewritten version and there is no backward compatibility.</p>
+
+<p>Current stable version is 3.3.1 (11 May 2015).</p>
+
+<p>Choco3 comes with:</p>
+
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="1_overview.html">Preliminaries</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="1_overview.html#installing-choco-version">Installing Choco 3.2</a></li>
-<li class="toctree-l2"><a class="reference internal" href="1_overview.html#overview-of-choco-version">Overview of Choco 3.2</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="2_modelling.html">Modeling with Choco</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="2_modelling.html#the-solver">The solver</a></li>
-<li class="toctree-l2"><a class="reference internal" href="2_modelling.html#declaring-variables">Declaring variables</a></li>
-<li class="toctree-l2"><a class="reference internal" href="2_modelling.html#posting-constraints">Posting constraints</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="3_solving.html">Solving problems</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="3_solving.html#finding-solutions">Finding solutions</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="4_advanced.html">Advanced usage</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="4_advanced.html#overview-of-choco-version">Overview of Choco 3.2</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="5_inside.html">Inside Choco</a></li>
-<li class="toctree-l1"><a class="reference internal" href="6_appendix.html">Appendix</a></li>
-<li class="toctree-l1"><a class="reference internal" href="faq.html">Frequently Asked Questions</a></li>
-<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
-</ul>
-</div>
-</div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><a class="reference internal" href="genindex.html"><em>Index</em></a></li>
-<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
-</ul>
-</div>
-
-
-          </div>
-        </div>
-      </div>
-      <div class="sphinxsidebar">
-        <div class="sphinxsidebarwrapper">
-  <h3><a href="#">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">Welcome to Choco3&#8217;s documentation</a></li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+<li>various type of variables (integer, boolean, set, graph and real),</li>
+<li>various state-of-the-art constraints (alldifferent, count, nvalues, etc.),</li>
+<li>various search strategies, from basic ones (first_fail, smallest, etc.) to most complex (impact-based and activity-based search),</li>
+<li>explanation-based engine, that enables conflict-based back jumping, dynamic backtracking and path repair,</li>
 </ul>
 
-  <h4>Next topic</h4>
-  <p class="topless"><a href="1_overview.html"
-                        title="next chapter">Preliminaries</a></p>
-  <h3>This Page</h3>
-  <ul class="this-page-menu">
-    <li><a href="_sources/index.txt"
-           rel="nofollow">Show Source</a></li>
-  </ul>
-<div id="searchbox" style="display: none">
-  <h3>Quick search</h3>
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
-    </form>
-    <p class="searchtip" style="font-size: 90%">
-    Enter search terms or a module, class or function name.
-    </p>
-</div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
-        </div>
-      </div>
-      <div class="clearer"></div>
+<p>But also, facilities to interact with the search loop, factories to help modelling, many samples, etc.</p>
+
+<p>Choco3 is distributed under BSD licence (Copyright (c) 1999-2015, Ecole des Mines de Nantes).</p>
+
+<p>Contact: <a href="mailto:choco@mines-nantes.fr">choco@mines-nantes.fr</a></p>
+
+<h2>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h2>
+
+<div class="highlight highlight-source-java"><pre><span class="pl-c">// 1. Create a Solver</span>
+<span class="pl-smi">Solver</span> solver <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-smi">Solver</span>(<span class="pl-s"><span class="pl-pds">"</span>my first problem<span class="pl-pds">"</span></span>);
+<span class="pl-c">// 2. Create variables through the variable factory</span>
+<span class="pl-smi">IntVar</span> x <span class="pl-k">=</span> <span class="pl-smi">VariableFactory</span><span class="pl-k">.</span>bounded(<span class="pl-s"><span class="pl-pds">"</span>X<span class="pl-pds">"</span></span>, <span class="pl-c1">0</span>, <span class="pl-c1">5</span>, solver);
+<span class="pl-smi">IntVar</span> y <span class="pl-k">=</span> <span class="pl-smi">VariableFactory</span><span class="pl-k">.</span>bounded(<span class="pl-s"><span class="pl-pds">"</span>Y<span class="pl-pds">"</span></span>, <span class="pl-c1">0</span>, <span class="pl-c1">5</span>, solver);
+<span class="pl-c">// 3. Create and post constraints by using constraint factories</span>
+solver<span class="pl-k">.</span>post(<span class="pl-smi">IntConstraintFactory</span><span class="pl-k">.</span>arithm(x, <span class="pl-s"><span class="pl-pds">"</span>+<span class="pl-pds">"</span></span>, y, <span class="pl-s"><span class="pl-pds">"</span>&lt;<span class="pl-pds">"</span></span>, <span class="pl-c1">5</span>));
+<span class="pl-c">// 4. Define the search strategy</span>
+solver<span class="pl-k">.</span>set(<span class="pl-smi">IntStrategyFactory</span><span class="pl-k">.</span>lexico_LB(<span class="pl-k">new</span> <span class="pl-smi">IntVar</span>[]{x, y}));
+<span class="pl-c">// 5. Launch the resolution process</span>
+solver<span class="pl-k">.</span>findSolution();
+<span class="pl-c">//6. Print search statistics</span>
+<span class="pl-smi">Chatterbox</span><span class="pl-k">.</span>printStatistics(solver);</pre></div>
+
+<h2>
+<a id="download-and-installation" class="anchor" href="#download-and-installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download and installation</h2>
+
+<p>Requirements:</p>
+
+<ul>
+<li>JDK 8+ (JDK 7 compliant jars are also available)</li>
+<li>maven 3+</li>
+</ul>
+
+<p>In the following, we distinguish two usages of Choco:</p>
+
+<ul>
+<li>as a standalone application: the jar file includes all required dependencies and configuration file (that is, <code>logback.xml</code>),</li>
+<li>as a library: the jar file excludes all dependencies and configuration file (that is, <code>logback.xml</code>).</li>
+</ul>
+
+<p>The name of the jar file terms the packaging: <code>choco-solver-3.3.1-with-dependencies.jar</code> or <code>choco-solver-3.3.1.jar</code>.</p>
+
+<p>The jar files can be downloaded from this URL:</p>
+
+<ul>
+<li><a href="http://choco-solver.org/?q=Download">http://choco-solver.org/?q=Download</a></li>
+</ul>
+
+<h3>
+<a id="as-a-stand-alone-application" class="anchor" href="#as-a-stand-alone-application" aria-hidden="true"><span class="octicon octicon-link"></span></a>As a stand-alone application</h3>
+
+<p>The jar file contains all required dependencies (including SLF4J, Logback and logback.xml).
+The next step is simply to add the jar file to your classpath of your application.
+Note that if your program depends on dependencies declared in the jar file,
+you should consider using choco as a library.</p>
+
+<h3>
+<a id="as-a-library" class="anchor" href="#as-a-library" aria-hidden="true"><span class="octicon octicon-link"></span></a>As a library</h3>
+
+<p>The jar file does not contains any dependencies or Logback configuration file,
+as of being used as a dependency of another application.
+The next step is to add the jar file to your classpath of your application and add also add the required dependencies.</p>
+
+<h3>
+<a id="inside-a-maven-project" class="anchor" href="#inside-a-maven-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>Inside a maven project</h3>
+
+<p>Choco is available on Maven Central Repository.
+So you only have to edit your <code>pom.xml</code> to declare the following library dependency:</p>
+
+<div class="highlight highlight-text-xml"><pre>&lt;<span class="pl-ent">dependency</span>&gt;
+   &lt;<span class="pl-ent">groupId</span>&gt;org.choco-solver&lt;/<span class="pl-ent">groupId</span>&gt;
+   &lt;<span class="pl-ent">artifactId</span>&gt;choco-solver&lt;/<span class="pl-ent">artifactId</span>&gt;
+   &lt;<span class="pl-ent">version</span>&gt;3.3.1&lt;/<span class="pl-ent">version</span>&gt;
+&lt;/<span class="pl-ent">dependency</span>&gt;</pre></div>
+
+<h3>
+<a id="dependencies" class="anchor" href="#dependencies" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dependencies</h3>
+
+<p>The required dependencies for compilation are:</p>
+
+<pre><code>org.javabits.jgrapht:jgrapht-core:jar:0.9.3
+dk.brics.automaton:automaton:jar:1.11-8
+args4j:args4j:jar:2.32
+net.sf.trove4j:trove4j:jar:3.0.3
+org.slf4j:slf4j-api:jar:1.7.13
+</code></pre>
+
+<p>They are available on Maven Repository (<a href="http://mvnrepository.com/">http://mvnrepository.com/</a>).</p>
+
+<h3>
+<a id="building-from-sources" class="anchor" href="#building-from-sources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Building from sources</h3>
+
+<p>The source of the released versions are directly available in the <code>Tag</code> section.
+You can also download them using github features.
+Once downloaded, move to the source directory then execute the following command
+to make the jar:</p>
+
+<pre><code>$ mvn clean package -DskipTests
+</code></pre>
+
+<p>If the build succeeded, the resulting jar will be automatically
+installed in your local maven repository and available in the <code>target</code> sub-folders.</p>
+
+<h1></h1>
+
+<p>The Choco3 dev team.</p>
+
+<p><a href="http://githalytics.com/chocoteam/choco3"><img src="https://cruel-carlota.pagodabox.com/5206b49e3dad062b919d632d75825479" alt="githalytics.com alpha" title="githalytics.com"></a></p>
+      </section>
+
     </div>
-    <div class="related">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             >index</a></li>
-        <li class="right" >
-          <a href="1_overview.html" title="Preliminaries"
-             >next</a> |</li>
-        <li><a href="#">Choco3 3.2.0 documentation</a> &raquo;</li> 
-      </ul>
-    </div>
-    <div class="footer">
-        &copy; Copyright 2014, Charles Prud&#39;homme, Jean-Guillaume Fages.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
-    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
   </body>
 </html>
